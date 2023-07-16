@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">where</string>
+    <string name="attendance">출석 완료</string>
+    <string name="going_out">외출</string>
+    <string name="leave">조퇴</string>
+    <string name="absent">결석</string>
+    <string name="auditorium">강당</string>
+    <string name="etc">기타</string>
+</resources>

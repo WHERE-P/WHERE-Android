@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/mung"
+        android:gravity="center"
+        android:background="@drawable/shape"
+        android:layout_width="320dp"
+        android:layout_height="71dp"
+        android:layout_marginTop="16dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginVertical="10dp">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="44dp"
+                android:layout_height="40dp"
+                android:id="@+id/profile_pic"
+                android:layout_marginStart="20dp"
+                android:src="@drawable/baseline_user_circle_24"/>
+            <LinearLayout
+                android:layout_width="141dp"
+                android:layout_height="38dp"
+                android:layout_marginStart="20dp"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/personName"
+                    android:text="YouHyun"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/usergrade"
+                    android:text="미래 사업과 최신동양"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/where"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="1dp"
+            android:gravity="center"
+            android:padding="15dp"
+            android:text="출석인증" />
+    </RelativeLayout>
+
+</LinearLayout>
